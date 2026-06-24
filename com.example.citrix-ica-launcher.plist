@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.example.citrix-ica-launcher</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/REPLACE_WITH_YOUR_MAC_USERNAME/bin/launch-citrix-ica.sh</string>
+    </array>
+
+    <key>WatchPaths</key>
+    <array>
+      <string>/Users/REPLACE_WITH_YOUR_MAC_USERNAME/Downloads</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/REPLACE_WITH_YOUR_MAC_USERNAME/Library/Logs/citrix-ica-launcher.stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/REPLACE_WITH_YOUR_MAC_USERNAME/Library/Logs/citrix-ica-launcher.stderr.log</string>
+  </dict>
+</plist>
